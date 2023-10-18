@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&family=Yeseva+One&display=swap");
+
+.nav_fonts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Yeseva One", cursive;
+  color: #ffffff;
+}
+
+.nav_fonts h1 {
+  font-size: 2.5rem;
+}
+
+.nav_fonts p {
+  font-size: 20px;
+}

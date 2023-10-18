@@ -1,0 +1,43 @@
+.skillSet {
+  color: #ffffff;
+}
+
+.titles {
+  font-family: "Shrikhand", cursive;
+  margin-left: 1.5rem;
+}
+
+.titles p {
+  font-size: 1.6rem;
+}
+
+.titles h3 {
+  font-size: 2.1rem;
+}
+
+.infoSet {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin: 1rem;
+}
+
+.squareInfo {
+  background-color: #b7693a;
+  width: 320px;
+  padding: 0.4rem;
+  font-family: "Yeseva One", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squareInfo h4 {
+  font-size: 1.6rem;
+}
+
+.squareInfo p {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Yeseva+One&display=swap");
+
+.aboutInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.aboutInfo img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: -16px 15px 5px 1px rgba(0, 0, 0, 0.644);
+}
+
+.infoContaine {
+  background-color: #dbb78e;
+  box-shadow: -16px 15px 5px 1px rgba(0, 0, 0, 0.767);
+  width: 75%;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoContaine h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 1.2rem;
+}
+
+.infoContaine p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 480px) {
+  .infoContaine {
+    width: 55%;
+  }
+}
+
+@media (min-width: 768px) {
+  .aboutInfo {
+    justify-content: space-evenly;
+  }
+
+  .infoContaine {
+    width: 45%;
+  }
+}

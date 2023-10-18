@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Yeseva+One&display=swap");
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3vh;
+}
+
+.education h2 {
+  color: #ffffff;
+  font-family: "Yeseva One", cursive;
+  text-decoration: underline wavy #9377a9;
+  margin: 1rem;
+}
+
+.education p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+}
+
+.education h4 {
+  color: #9377a9;
+  font-family: "Yeseva One", cursive;
+  font-size: 1.3rem;
+}
+
+.contentInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.infoUTN,
+.infoDesign {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.vectores {
+  display: flex;
+  gap: 1rem;
+}
+
+.vectores img {
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .contentInfo {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .vectores {
+    flex-wrap: wrap;
+  }
+}
