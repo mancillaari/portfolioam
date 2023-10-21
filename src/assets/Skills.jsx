@@ -19,7 +19,7 @@ export default function Skills() {
           </div>
           <div className="squareInfo two">
             <h4>App Design</h4>
-            <p>Conocimientos en: Armado de App y Página Web. Estructura.</p>
+            <p>Conocimientos en: Armado de App y Página Web. Estructura. Responsive design.</p>
           </div>
           <div className="squareInfo three">
             <h4>Front-End Desarrollo</h4>

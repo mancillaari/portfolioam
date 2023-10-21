@@ -1,37 +1,38 @@
-.skillSet {
-  color: #ffffff;
-}
-
 .titles {
-  font-family: "Shrikhand", cursive;
-  margin-left: 1.5rem;
+  color: #ffffff;
+  margin-left: 1rem;
 }
 
 .titles p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
 }
 
 .titles h3 {
-  font-size: 2.1rem;
+  font-size: 1.7rem;
+  font-family: "Yeseva One", cursive;
+  text-decoration: underline wavy #9377a9;
 }
 
 .infoSet {
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 2rem;
   row-gap: 2rem;
   margin: 1rem;
+  color: #000000;
 }
 
 .squareInfo {
-  background-color: #b7693a;
+  background-color: #dbb78e;
   width: 320px;
-  padding: 0.4rem;
-  font-family: "Yeseva One", cursive;
+  padding: 0.5rem;
+  font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 5px;
 }
 
 .squareInfo h4 {
@@ -40,4 +41,10 @@
 
 .squareInfo p {
   font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .infoSet {
+    grid-template-columns: 1fr 1fr;
+  }
 }

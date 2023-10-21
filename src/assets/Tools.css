@@ -1,0 +1,33 @@
+.tools h2 {
+  color: #ffffff;
+  font-family: "Yeseva One", cursive;
+  font-size: 1.6rem;
+  text-decoration: underline wavy #9377a9;
+  margin: 1rem;
+}
+
+.vectoresTools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 2vh;
+  margin: 1rem;
+}
+
+.vectoresTools h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+}
+
+.vectoresTools img {
+  width: 80px;
+  background-color: #dbb78e;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .vectoresTools {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+}

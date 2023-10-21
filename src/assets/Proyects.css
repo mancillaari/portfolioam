@@ -1,0 +1,61 @@
+.proyects h2 {
+  color: #ffffff;
+  font-family: "Yeseva One", cursive;
+  font-size: 1.7rem;
+  text-decoration: underline wavy #9377a9;
+  margin: 1rem;
+}
+
+.infoProyects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dbb78e;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.infoProyects h4 {
+  font-size: 1.6rem;
+}
+
+.infoProyects p {
+  font-size: 1.3rem;
+}
+
+.infoProyects img {
+  width: 80%;
+  margin: 1rem;
+}
+
+.vectoresProyect {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 2vh;
+}
+
+.vectoresProyect img {
+  width: 70px;
+}
+
+@media (min-width: 768px) {
+  .infoProyects {
+    width: 70%;
+  }
+
+  .infoProyects img {
+    width: 70%;
+  }
+
+  .vectoresProyect {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5vh;
+  }
+
+  .vectoresProyect img {
+    width: 85px;
+  }
+}

@@ -11,7 +11,11 @@ export default function Socials() {
           ¡Te invito a chequear mi
           <span className="destaque"> Curriculum Vitae</span>! Aquí abajo:
         </p>
-
+        <button className="button">
+          <a href="https://drive.google.com/file/d/1o6VXxEQWaVRPoitdPlMYyOC7Xv0EJKWt/view?usp=share_link">
+            VER CURRICULUM
+          </a>
+        </button>
         <p>
           En
           <span className="destaque">LinkedIn</span>

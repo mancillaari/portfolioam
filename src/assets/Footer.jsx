@@ -1,11 +1,11 @@
 import "./Footer.css";
+import logo from "./img/logo.png";
 
 export default function Footer() {
   return (
     <footer className="footerContaine">
-      <div className="infoFooter">
-        <h2>am.</h2>
-      </div>
+      <img src={logo} alt="" />
+      <div className="infoFooter"></div>
     </footer>
   );
 }

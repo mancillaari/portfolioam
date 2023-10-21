@@ -1,13 +1,16 @@
 import "./Nav.css";
+import logo from "./img/logo.png";
 
 export default function Nav() {
   return (
     <>
-      <nav className="nav_fonts">
-        <h1>am.</h1>
-        <p>resumen</p>
-        <p>proyectos</p>
-        <p>contacto</p>
+      <nav className="navFonts">
+        <div className="navInfo">
+          <img src={logo} alt="" />
+          <a href="#sectionInicio">INICIO</a>
+          <a href="#sectionProyectos">PROYECTOS</a>
+          <a href="#">CONTACTO</a>
+        </div>
       </nav>
     </>
   );
