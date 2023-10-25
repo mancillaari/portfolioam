@@ -11,7 +11,9 @@ export default function Tools() {
   return (
     <>
       <section className="tools">
-        <h2>Lenguajes y Herramientas utilizados</h2>
+        <div className="title">
+          <h2>Lenguajes y Herramientas utilizados</h2>{" "}
+        </div>
         <div className="vectoresTools">
           <img src={html} alt="" />
           <h5>HTML5</h5>

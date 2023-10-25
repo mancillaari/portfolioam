@@ -30,10 +30,12 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5vh;
+  align-items: center;
 }
 
 .aboutInfo img {
   width: 250px;
+  margin-top: 1rem;
   border-radius: 10px;
   box-shadow: -16px 15px 5px 1px rgba(0, 0, 0, 0.644);
 }

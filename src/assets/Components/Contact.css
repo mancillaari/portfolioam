@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3vh;
+}
+
+.contact h2 {
+  color: #ffffff;
+  font-family: "Yeseva One", cursive;
+  text-decoration: underline wavy #9377a9;
+  font-size: 1.6rem;
+}
+
+.contact p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0.5rem;
+}
+
+.parapDestaque {
+  font-family: "Yeseva One", cursive;
+  color: #9377a9;
+}
+
+.contact img {
+  width: 75px;
+  background-color: #dacbba;
+}

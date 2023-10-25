@@ -3,6 +3,7 @@
 .education {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 3vh;
 }
 
@@ -16,6 +17,7 @@
 .education p {
   font-family: "Inter", sans-serif;
   font-size: 1.3rem;
+  color: #ffffff;
 }
 
 .education h4 {

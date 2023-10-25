@@ -1,7 +1,8 @@
 .socialMedia {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  align-items: center;
+  margin: 3vh;
 }
 
 .socialMedia h2 {
@@ -13,18 +14,18 @@
 .socialMedia p {
   font-family: "Inter", sans-serif;
   font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .infoSocials {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
   padding: 1rem;
 }
 
 button {
-  background-color: #dbb78e;
+  background-color: #dacbba;
   border: 0;
   width: 140px;
   height: 45px;

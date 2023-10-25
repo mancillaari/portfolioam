@@ -18,7 +18,7 @@ export default function Socials() {
         </button>
         <p>
           En
-          <span className="destaque">LinkedIn</span>
+          <span className="destaque"> LinkedIn </span>
           tengo más información acerca de mis estudios, experiencias laborales y
           proyectos digitales. ¡Adelante!
         </p>
